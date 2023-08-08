@@ -13,6 +13,11 @@
     padding: 20px 10px;
 }
 
+.navbar .icon{
+    text-decoration: none;
+    color: black;
+}
+
 .navbar ul li {
     list-style: none;
 }
@@ -63,3 +68,9 @@
     transition: 0.3s;
     color: white;
 }
+
+.material-symbols-outlined {
+    font-size: 400px;
+  font-variation-settings: 'FILL' 0;
+}
+
