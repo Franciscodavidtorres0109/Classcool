@@ -31,3 +31,63 @@
         text-decoration: none;
         color: black;
     }
+    .niveles{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+     }
+     .niveles div{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+     }
+.material-symbols-outlined {
+    font-size: 500px;
+    font-variation-settings:'FILL' 0;
+font-weight: 700;
+
+}
+    .niveles a{
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 0);
+        color: white;
+        border-radius: 10px;
+        transition: 0.3s;
+    
+    }
+    .niveles a{
+        padding: 13px 30px;
+        font-size: 18px;
+        background-color: rgb(0, 0, 0);
+        transition: 0.3s;
+        color: white; }
+    
+        #boton-notas {
+            text-decoration: none;
+            padding: 10px 20px;
+            background-color: rgb(39, 39, 39);
+            color: white;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+        
+        #boton-notas:hover {
+            padding: 13px 30px;
+            font-size: 18px;
+            background-color: rgb(22, 22, 22);
+            transition: 0.3s;
+            color: white;
+        }
+        .navbar .icon{
+            text-decoration: none;
+            color: black;
+        }
+        .niveles a:hover{
+            transform: scale(1.05);
+        }
+        
