@@ -1,0 +1,48 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(172, 25, 25);
+    padding: 20px 10px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+.navbar .icon{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul li a:hover {
+    color: rgb(255, 123, 0);
+    font-size: 24px;
+    transition: 0.3s;
+     }
+     #boton-notas {
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+p{
+
+    size: 4px;
+}
+
+#obj1,#obj2{
+    display: none;
+}

@@ -38,11 +38,42 @@
         justify-content: center;
         align-items: center;
     }
-    .h1{
+    .h1 {
 
         margin-top: 50px;
         margin-left: 20px;
-        font-size: 30px;
+        font-size: 10px;
+       
 
 
     }
+h1{
+
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    border-radius: 5px;
+
+}
+
+    section{
+height: 90vh;
+margin: 10px;
+background-color:  rgb(230, 206, 206)
+}
+body{
+   
+   background-color: aliceblue;
+
+    }
+
+    #boton-notas {
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: rgb(39, 39, 39);
+        color: white;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+    

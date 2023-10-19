@@ -31,52 +31,6 @@
         text-decoration: none;
         color: black;
     }
-.material-symbols-outlined {
-    font-size: 500px;
-    font-variation-settings:'FILL' 0;
-font-weight: 700;
-
-}
-    .niveles a{
-        text-decoration: none;
-        padding: 10px 20px;
-        background-color: rgb(0, 0, 0);
-        color: white;
-        border-radius: 10px;
-        transition: 0.3s;
-    
-    }
-    .niveles a{
-        padding: 13px 30px;
-        font-size: 18px;
-        background-color: rgb(0, 0, 0);
-        transition: 0.3s;
-        color: white; }
-    
-        #boton-notas {
-            text-decoration: none;
-            padding: 10px 20px;
-            background-color: rgb(39, 39, 39);
-            color: white;
-            border-radius: 10px;
-            transition: 0.3s;
-        }
-        
-        #boton-notas:hover {
-            padding: 13px 30px;
-            font-size: 18px;
-            background-color: rgb(22, 22, 22);
-            transition: 0.3s;
-            color: white;
-        }
-        .navbar .icon{
-            text-decoration: none;
-            color: black;
-        }
-        .niveles a:hover{
-            transform: scale(1.05);
-        }
-        
 
     .teletubies{
         display: flex;
@@ -86,7 +40,9 @@ font-weight: 700;
 
     }
 
-
+.card:hover{
+    transform: scale(1.2);
+}
 
     .teletubies h1{
         margin-right: 200px;
@@ -102,6 +58,7 @@ font-weight: 700;
 
 
 .card {
+    transition: 0.5s;
     display: flex;
     flex-direction: column;
     border: 2px solid black;
